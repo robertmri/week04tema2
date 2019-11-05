@@ -65,11 +65,11 @@ namespace ConsoleApp2
             Console.WriteLine("Metoda Stack/Pop");
 
             var st1 = new Stack<int>();
-            st.Push(4);
-            st.Push(5);
-            st.Push(6);
+            st1.Push(4);
+            st1.Push(5);
+            st1.Push(6);
 
-            st.Pop();
+            st1.Pop();
 
             foreach (var item in st1)
             {
