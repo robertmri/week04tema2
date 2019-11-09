@@ -10,7 +10,26 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            ////
+            Queue myQueue = new Queue(1);
+            myQueue.Enqueue(2);
+            myQueue.Enqueue(3);
+            myQueue.Enqueue(4);
+            myQueue.Dequeue();
+            myQueue.Print();
+
+            Stack myStack = new Stack(5);
+            myStack.Push(10);
+            myStack.Push(15);
+            myStack.Push(20);
+            myStack.Pop();
+            myStack.Pop();
+            myStack.Pop();
+            myStack.Pop();
+            myStack.Pop();
+            myStack.Pop();
+            myStack.Print();
+            Console.ReadKey();
+
         }
     }
 }
